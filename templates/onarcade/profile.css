@@ -1,0 +1,93 @@
+/* onArcade 2.3 CSS for profile pages */
+/* menu */
+#profile_menu {
+	float: left;
+	width: 168px
+}
+/* contents of the page */
+#profile_contents {
+	float: right;
+	width: 827px;
+}
+/* username on side menu */
+#profile_menu .username {
+	margin-bottom: 4px;
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#profile_menu .username:hover {
+	color: #666666;
+}
+/* location */
+#user_location img {
+	display: none;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+/* lines with green bottom border */
+#profile_contents .line {
+	border-bottom: 1px solid #E0EEE0;
+}
+#profile_contents .line p {
+	padding: 3px;
+}
+/* 2 columns in profile */
+#profile_contents .left_column {
+	width: 305px;
+	float: left;
+}
+#profile_contents .right_column {
+	width: 305px;
+	float: right;
+}
+/* friends on profile */
+.friend {
+	width: 118px;
+	padding: 2px;
+	float: left;
+	text-align: center;
+}
+.friend img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+/* files with images (favourties and scores) */
+#profile_contents .file {
+	width: 98px;
+	padding: 2px;
+	float: left;
+	text-align: center;
+}
+#profile_contents .file img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+}
+/* comments */
+#comments .comment {
+	border-bottom: 1px solid #E0EEE0;
+	margin: 2px 0;
+	padding: 2px 0;
+	overflow: auto;
+}
+#comments .user_avatar {
+	float: right;
+	margin: 0 0 1px 4px;
+}
+#comments .user {
+	font-weight: bold;
+}
+#comments .date {
+	color: #555555;
+	margin-left: 4px;
+}
+#comments .delete, #comments .ip {
+	text-align: right;
+	clear: both;
+}
